@@ -1,0 +1,6 @@
+C:\Users\Administrator\source\healthcheck\Healthcheck.Kill\bin\Healthcheck.Kill.dll.config
+C:\Users\Administrator\source\healthcheck\Healthcheck.Kill\bin\Healthcheck.Kill.dll
+C:\Users\Administrator\source\healthcheck\Healthcheck.Kill\bin\Healthcheck.Kill.pdb
+C:\Users\Administrator\source\healthcheck\Healthcheck.Kill\obj\Release\Healthcheck.Kill.dll
+C:\Users\Administrator\source\healthcheck\Healthcheck.Kill\obj\Release\Healthcheck.Kill.pdb
+C:\Users\Administrator\source\healthcheck\Healthcheck.Kill\obj\Release\Healthcheck.Kill.csprojResolveAssemblyReference.cache

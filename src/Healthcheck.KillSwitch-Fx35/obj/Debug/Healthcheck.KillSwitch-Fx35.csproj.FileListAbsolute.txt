@@ -1,0 +1,6 @@
+C:\Users\Administrator\source\healthcheck\src\Healthcheck.KillSwitch-Fx35\bin\Healthcheck.KillSwitch.dll.config
+C:\Users\Administrator\source\healthcheck\src\Healthcheck.KillSwitch-Fx35\bin\Healthcheck.KillSwitch.dll
+C:\Users\Administrator\source\healthcheck\src\Healthcheck.KillSwitch-Fx35\bin\Healthcheck.KillSwitch.pdb
+C:\Users\Administrator\source\healthcheck\src\Healthcheck.KillSwitch-Fx35\obj\Debug\Healthcheck.KillSwitch-Fx35.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\source\healthcheck\src\Healthcheck.KillSwitch-Fx35\obj\Debug\Healthcheck.KillSwitch.dll
+C:\Users\Administrator\source\healthcheck\src\Healthcheck.KillSwitch-Fx35\obj\Debug\Healthcheck.KillSwitch.pdb

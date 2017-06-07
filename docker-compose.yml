@@ -1,0 +1,18 @@
+version: '2.1'
+
+services:
+  fx35:
+    image: broyal/healthcheck.killswitch-fx35:0.1
+    build:
+      context: .
+      dockerfile: examples/fx35/Dockerfile
+    ports:
+      - 8080:80
+
+  fx46:
+    image: broyal/healthcheck.killswitch-fx35:0.1
+    build:
+      context: .
+      dockerfile: examples/fx46/Dockerfile
+    ports:
+      - 8081:80
