@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Kill.aspx.cs" Inherits="Healthcheck.Kill.Kill" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Kill.aspx.cs" Inherits="Healthcheck.KillSwitch.Kill" %>
 
 <!DOCTYPE html>
 

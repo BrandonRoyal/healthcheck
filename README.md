@@ -9,8 +9,8 @@ Add Kill.aspx and Healthcheck.KillSwitch.dll based on your target .NET Framework
 ```
 #Dockerfile
 ...
-ADD <github.com/repo/Kill.aspx> /inetpub/wwwroot/Kill.aspx
-ADD <github.com/repo/Healthcheck.KillSwitch.dll> /inetpub/wwwroot/bin/Healthcheck.KillSwitch.dll
+ADD https://raw.githubusercontent.com/BrandonRoyal/healthcheck/master/build/fx35/Kill.aspx /inetpub/wwwroot/Kill.aspx
+ADD https://github.com/BrandonRoyal/healthcheck/blob/master/build/fx35/bin/Healthcheck.Kill.dll?raw=true /inetpub/wwwroot/bin/Healthcheck.KillSwitch.dll
 ...
 ```
 
@@ -18,13 +18,17 @@ ADD <github.com/repo/Healthcheck.KillSwitch.dll> /inetpub/wwwroot/bin/Healthchec
 ```
 #Dockerfile
 ...
-ADD <github.com/repo/Kill.aspx> /inetpub/wwwroot/Kill.aspx
-ADD <github.com/repo/Healthcheck.KillSwitch.dll> /inetpub/wwwroot/bin/Healthcheck.KillSwitch.dll
+ADD https://raw.githubusercontent.com/BrandonRoyal/healthcheck/master/build/fx35/Kill.aspx /inetpub/wwwroot/Kill.aspx
+ADD https://github.com/BrandonRoyal/healthcheck/blob/master/build/fx35/bin/Healthcheck.Kill.dll?raw=true /inetpub/wwwroot/bin/Healthcheck.KillSwitch.dll
 ...
 ```
 
 ### Configure HEALTHCHECK
 TODO: Copy Healthcheck from Nationstar implementation
 ```
-
+# Healthcheck
+HEALTHCHECK --interval=5s `
+ CMD powershell -command `
+    $path = 'C:\windows\temp\dead'; `
+    if (Test-Path $path) { exit 1 }
 ```
