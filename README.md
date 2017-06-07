@@ -10,7 +10,7 @@ Add Kill.aspx and Healthcheck.KillSwitch.dll based on your target .NET Framework
 #Dockerfile
 ...
 ADD https://raw.githubusercontent.com/BrandonRoyal/healthcheck/master/build/fx35/Kill.aspx /inetpub/wwwroot/Kill.aspx
-ADD https://github.com/BrandonRoyal/healthcheck/blob/master/build/fx35/bin/Healthcheck.Kill.dll?raw=true /inetpub/wwwroot/bin/Healthcheck.KillSwitch.dll
+ADD https://github.com/BrandonRoyal/healthcheck/blob/master/build/fx35/bin/Healthcheck.KillSwitch.dll?raw=true /inetpub/wwwroot/bin/Healthcheck.KillSwitch.dll
 ...
 ```
 
@@ -19,12 +19,11 @@ ADD https://github.com/BrandonRoyal/healthcheck/blob/master/build/fx35/bin/Healt
 #Dockerfile
 ...
 ADD https://raw.githubusercontent.com/BrandonRoyal/healthcheck/master/build/fx35/Kill.aspx /inetpub/wwwroot/Kill.aspx
-ADD https://github.com/BrandonRoyal/healthcheck/blob/master/build/fx35/bin/Healthcheck.Kill.dll?raw=true /inetpub/wwwroot/bin/Healthcheck.KillSwitch.dll
+ADD https://github.com/BrandonRoyal/healthcheck/blob/master/build/fx35/bin/Healthcheck.KillSwitch.dll?raw=true /inetpub/wwwroot/bin/Healthcheck.KillSwitch.dll
 ...
 ```
 
 ### Configure HEALTHCHECK
-TODO: Copy Healthcheck from Nationstar implementation
 ```
 # Healthcheck
 HEALTHCHECK --interval=5s `
